@@ -1,0 +1,16 @@
+.text-bold {
+    font-weight: bolder;
+}
+
+img{
+    padding: 0;      
+    border-radius: 30px;
+}
+
+.alg-center{
+    text-align: left;
+}
+
+.alg-right {
+    text-align: right;
+}

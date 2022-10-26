@@ -1,0 +1,20 @@
+{% extends 'administrative_template/starter.html' %}
+{% load static %}
+
+{% block body %}
+<div class="row">
+    <div class="col-lg-6">
+      <div class="card alg-center">
+        <div class="card-body">
+          <h3 class="card-title mb-3 text-bold">{{ name }}</h3><br/>
+          <p class="card-text"><img src="{{image}}"/></p>
+          <p class="card-text"><span class="text-bold">Cidade:</span> {{ city }}</p>
+          <p class="card-text"><span class="text-bold">Pais:</span> {{ country }}</p>
+          <p class="card-text"><span class="text-bold">E-mail:</span> {{ email }}</p>
+          <p class="card-text"><span class="text-bold">Idade:</span> {{ age }}</p>
+          <p class="card-text"><span class="text-bold">Celular:</span> {{ cell }}</p>           
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
